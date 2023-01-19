@@ -8,8 +8,6 @@
 ====================*/
 *{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
     /* font-family: 'Inter', sans-serif;
@@ -49,12 +47,16 @@ header{
     min-height: 100vh;
 }
 .banner-section2{
-    background: url("../images/people.png") no-repeat center top;
+    background: url("../images/big-banner.jpg") no-repeat center top;
     background-size: cover;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply;
     min-height: 100vh;
 }
 .banner-section3{
-    background: url("../images/wedding.png") no-repeat center top;
+    background: url("../images/big-banner2.jpg") no-repeat center top;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply;
     background-size: cover;
     min-height: 100vh;
 }
