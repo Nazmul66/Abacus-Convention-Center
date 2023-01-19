@@ -1,0 +1,232 @@
+/*====================
+     Google Fonts
+====================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*====================
+      Global CSS
+====================*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+a{
+    text-decoration: none;
+}
+
+/*========================
+   Header section start
+=========================*/
+header{
+   padding: 24px 0;
+}
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 21px;
+    color: #3E3E3E;
+}
+.navbar-nav .nav-item {
+    margin: 0 4px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E3E3E; 
+}
+
+/*========================
+   Banner section start
+=========================*/
+.banner-section1{
+    background: url("../images/banner.png") no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+.banner-section2{
+    background: url("../images/people.png") no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+.banner-section3{
+    background: url("../images/wedding.png") no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+.banner-details {
+    width: 55%;
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-details h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    animation: fadeDown 2s ease forwards;
+}
+@keyframes fadeDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.banner-details p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;  
+    color: #FFFFFF;
+    padding: 0 102px;
+    animation: fadeLeft 2s ease forwards;
+}
+@keyframes fadeLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.banner-details .booking{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F87F5;
+    padding: 10px 43px;
+    border: none;
+    animation: fadeUp 2s ease forwards;
+}
+@keyframes fadeUp{
+    0%{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 220% !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 50px !important;
+    margin-right: 8px !important;
+  }
+
+/*========================
+   moment section start
+=========================*/
+.moment-section{
+    padding: 100px 0;
+}
+.moment-details h3{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.moment-details p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-right: 50px;
+}
+.moment-details .send-msg{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    background-color: #3F87F5;
+    border: none;
+}
+.moment-details .fa-arrow-right{
+    margin-left: 12px;
+}
+
+
+/*========================
+   Footer section start
+=========================*/
+footer{
+    padding: 55px 0 85px;
+    background: #0B0D17;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.social-link h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9DBE1;
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+ 
+ 
+  /* header section start   */
+    header {
+        padding: 12px 0;
+    }
+    .navbar .navbar-brand {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+  /* Banner section start   */
+    .banner-details {
+        padding: 0 22px;
+        width: 100%;
+        position: absolute;
+        bottom: 10% !important;
+        left: 0;
+        transform: translate(0px,0px)
+    }
+    .banner-details h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-details p {
+        line-height: 26px;
+        padding: 0;
+    }
+    .carousel-indicators {
+        margin-bottom: 0 !important;
+    }
+
+}
