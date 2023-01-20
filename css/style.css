@@ -97,7 +97,7 @@ header{
 @keyframes fadeLeft{
     0%{
         opacity: 0;
-        transform: translateX(-40px);
+        transform: translateX(-100px);
     }
     100%{
         opacity: 1;
@@ -166,6 +166,229 @@ header{
     margin-left: 12px;
 }
 
+/*========================
+   package section start
+=========================*/
+.package-section{
+    padding: 0 0 50px;
+}
+.package-section h1{
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A0826;
+}
+.package-details{
+    margin-top: 70px;
+}
+.package-details h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    color: #231D4F; 
+    margin-bottom: 12px 
+}
+.package-details h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #231D4F;  
+    margin-bottom: 15px 
+}
+.package-details p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+    margin-bottom: 19px 
+}
+.package-details ul{
+   padding: 0;
+}
+.package-details ul li{
+    list-style: none;
+    margin: 12px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.package-details ul li .fa-check{
+    color: #5243C2;
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 8px;
+    line-height: 23px;
+    background: rgba(82, 67, 194, 0.103693);
+    border-radius: 60px;
+}
+.package-details .btn-purchase{
+    background: rgba(244, 150, 210, 0.1);
+    border-radius: 24px;
+    padding: 14px 61px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #3F87F5;
+    border: none;
+    margin-top: 20px;
+}
+
+.package-details2{
+    padding: 43px 20px;
+    background-color: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    position: relative;
+}
+.package-details2 h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    color: #FFF; 
+    margin-bottom: 12px 
+}
+.package-details2 h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFF;  
+    margin-bottom: 15px 
+}
+.package-details2 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFF; 
+    margin-bottom: 19px 
+}
+.package-details2 ul{
+   padding: 0;
+}
+.package-details2 ul li{
+    list-style: none;
+    margin: 12px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF; 
+}
+.package-details2 ul li .fa-check{
+    color: #FFF; 
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    margin-right: 8px;
+    line-height: 23px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 60px; 
+}
+.package-details2 .btn-purchase{
+    background: #FFF;
+    border-radius: 24px;
+    padding: 14px 55px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #3F87F5;
+    border: none;
+    margin-top: 20px;
+}
+.package-details2 .hot{
+    position: absolute;
+    top: -2.5%;
+    right: 10%;
+    background: #FF4E4E;
+    display: block;
+    width: 51px;
+    text-align: center;
+    border-radius: 50px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+/*========================
+   Client section start
+=========================*/
+.client-section{
+    padding: 100px 0;
+}  
+.client-section h1{
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A0826;
+}
+.client-details{
+    padding: 20px 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+.client-details h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0C1920;
+}
+.client-details h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #747474;
+}
+.client-details p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+
+/*========================
+    FAQ section start
+=========================*/
+.faq-section{
+    padding: 100px 0;
+}
+.faq-section h1{
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A0826; 
+}
+.accordion-button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; 
+    color: #383838;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #383838;
+  } 
+.accordion-body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; 
+    color: #7E848C;
+}
 
 /*========================
    Footer section start
@@ -186,49 +409,129 @@ footer p{
     line-height: 28px;
     color: #D9DBE1;
 }
-
-
-
-
-
+.social-link .img01{
+    display: block;
+}
 
 
 @media (min-width: 320px) and (max-width: 576px){
  
- 
-  /* header section start   */
-    header {
-        padding: 12px 0;
-    }
-    .navbar .navbar-brand {
-        font-size: 16px;
-    }
-    .navbar-toggler {
-        border: none;
-    }
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
 
-  /* Banner section start   */
-    .banner-details {
-        padding: 0 22px;
-        width: 100%;
-        position: absolute;
-        bottom: 10% !important;
-        left: 0;
-        transform: translate(0px,0px)
-    }
-    .banner-details h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .banner-details p {
-        line-height: 26px;
-        padding: 0;
-    }
-    .carousel-indicators {
-        margin-bottom: 0 !important;
-    }
+/* header section start   */
+header {
+    padding: 12px 0;
+}
+.navbar .navbar-brand {
+    font-size: 16px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Banner section start   */
+.banner-details {
+    padding: 0 22px;
+    width: 100%;
+    position: absolute;
+    bottom: 10% !important;
+    left: 0;
+    transform: translate(0px,0px)
+}
+.banner-details h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.banner-details p {
+    line-height: 26px;
+    padding: 0;
+}
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+/* Moment section start   */
+.moment-section {
+    padding: 60px 0;
+}
+.moment-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.moment-details h3 {
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+.moment-details p {
+    padding-right: 0;
+}
+
+/* package section start   */
+.package-section h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.package-details h2 {
+    font-size: 36px;
+}
+.package-details h3 {
+    font-size: 28px;
+}
+.package-details p {
+    font-size: 16px;
+    padding-right: 30%;
+}
+.package-details2 {
+    margin-top: 70px;
+}
+.package-details2 .btn-purchase {
+    display: block;
+    width: 100%;
+}
+
+/* client section start   */
+.client-section {
+    padding: 50px 0;
+}
+.client-section h1 {
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.client-details {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* FAQ section start   */
+.faq-section {
+    padding: 50px 0;
+}
+.faq-section h1 {
+    font-size: 30px;
+    line-height: 46px;
+    margin-bottom: 60px;
+}
+
+/* Footer section start   */
+.social-link {
+    text-align: center !important;
+    margin-bottom: 65px;
+}
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 }
