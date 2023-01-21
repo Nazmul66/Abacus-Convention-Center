@@ -476,6 +476,9 @@ header {
 .package-details h2 {
     font-size: 36px;
 }
+.package-details{
+    padding: 43px 20px;
+}
 .package-details h3 {
     font-size: 28px;
 }
